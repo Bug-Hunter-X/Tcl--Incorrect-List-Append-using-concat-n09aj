@@ -1,0 +1,1 @@
+This example demonstrates a common error in Tcl when appending elements to a list.  The `concat` command creates a new list rather than modifying the existing one in place.  The solution shows the correct approach using `lappend`.
